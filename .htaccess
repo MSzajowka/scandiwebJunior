@@ -1,0 +1,5 @@
+AddHandler application/x-httpd-php80 php
+RewriteEngine On
+RewriteRule ^add-product$ index.php
+php_flag display_startup_errors on
+php_flag display_errors on
