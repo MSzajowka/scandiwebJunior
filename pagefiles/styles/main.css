@@ -1,0 +1,134 @@
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	font-family: sans-serif;
+
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+	max-height: 850px;
+}
+
+#top {
+	display: flex;
+	justify-content: space-between;
+	border: none;
+	border-bottom: 2px solid black;
+	padding: 0 20px 10px 10px;
+	margin: 5px 0 25px 0;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#buttons button {
+	margin: 0 0 0 25px;
+	border: 3px solid black;
+	box-shadow: 2px 2px;
+	background-color: white;
+}
+
+#buttons button:hover {
+	background-color: silver;
+}
+
+#middle {
+	height: 90%;
+	width: 1000px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-bottom: 60px;
+}
+
+#middle.productList {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#bottom {
+	border: none;
+	border-top: 2px solid black;
+	padding: 20px 0 10px 0;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	font-size: 0.8em;
+	background-color: white;
+	position: fixed;
+	bottom: 0px;
+	width: 1000px;
+}
+
+.product_box {
+	width: 200px;
+	height: 160px;
+	border: 2px solid black;
+	margin: 10px 10px 30px 10px;
+	padding: 5px;
+}
+
+.product_box div {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 7px;
+}
+
+.productAddLabel {
+	width: 150px;
+}
+
+.productAddInput,
+.productAddInput input {
+	width: 250px;
+}
+
+#productAdd {
+	text-align: left;
+	border-collapse: collapse;
+
+}
+
+#productAdd td {
+	padding-top: 20px;
+}
+
+.spacer {
+	height: 50px;
+}
+
+#productType {
+	width: 150px;
+}
+
+
+.dynamicSwitcherField td {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.productPropertyDescription {
+	font-size: 13px;
+	margin: 20px 0 10px 0;
+}
+
+.dynamicSwitcherField label {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.dynamicFields {
+	display: none;
+}
+
+.productDescription {
+	margin: 20px 0 10px 20px;
+}
+
+#alertMessage {
+	color: red;
+}
